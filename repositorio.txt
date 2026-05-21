@@ -6,3 +6,4 @@ git add .
 git commit -m "first commit"
 git push -u origin main
 https://jmgvpteltemasselectosdefisica2.netlify.app/
+https://jmgvpteltemasselectosdefisica2.netlify.app/palneacion%20tsfisica2/sesiones/s31
