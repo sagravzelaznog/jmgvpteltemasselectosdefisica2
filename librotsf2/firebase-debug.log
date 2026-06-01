@@ -1,0 +1,55 @@
+[debug] [2026-06-01T01:33:22.536Z] ----------------------------------------------------------------------
+[debug] [2026-06-01T01:33:22.539Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-06-01T01:33:22.539Z] CLI Version:   15.19.0
+[debug] [2026-06-01T01:33:22.540Z] Platform:      win32
+[debug] [2026-06-01T01:33:22.540Z] Node Version:  v22.14.0
+[debug] [2026-06-01T01:33:22.540Z] Time:          Sun May 31 2026 19:33:22 GMT-0600 (hora estándar central)
+[debug] [2026-06-01T01:33:22.540Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\admin\Documents\000 A PREPA\planeaciones especialidades\temaselectosfisica2\librotsf2
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-06-01T01:33:32.409Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-01T01:33:32.410Z] > authorizing via signed-in user (primomanuelsagrav@gmail.com)
+[debug] [2026-06-01T01:33:32.412Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:32.413Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:32.415Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/autorizacion-para-tsf2 [none]
+[debug] [2026-06-01T01:33:32.801Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/autorizacion-para-tsf2 200
+[debug] [2026-06-01T01:33:32.801Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/autorizacion-para-tsf2 {"projectId":"autorizacion-para-tsf2","projectNumber":"783077071276","displayName":"autorizacion-para tsf2","name":"projects/autorizacion-para-tsf2","resources":{"hostingSite":"autorizacion-para-tsf2"},"state":"ACTIVE","etag":"1_ccbbf245-df79-4d5e-858b-cb41ee77e2aa"}
+[info] i  Using project autorizacion-para-tsf2 (autorizacion-para tsf2) . 
+[info] 
+=== Dataconnect Setup
+[info] i  dataconnect: ensuring required API firebasedataconnect.googleapis.com is enabled... 
+[info] i  dataconnect: ensuring required API sqladmin.googleapis.com is enabled... 
+[debug] [2026-06-01T01:33:32.810Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:32.811Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:32.811Z] >>> [apiv2][query] GET https://firebasedataconnect.googleapis.com/v1/projects/autorizacion-para-tsf2/locations/-/services [none]
+[debug] [2026-06-01T01:33:36.442Z] <<< [apiv2][status] GET https://firebasedataconnect.googleapis.com/v1/projects/autorizacion-para-tsf2/locations/-/services 200
+[debug] [2026-06-01T01:33:36.442Z] <<< [apiv2][body] GET https://firebasedataconnect.googleapis.com/v1/projects/autorizacion-para-tsf2/locations/-/services {"services":[{"name":"projects/autorizacion-para-tsf2/locations/us-east4/services/librotsf2","createTime":"2026-06-01T01:22:13.402211364Z","updateTime":"2026-06-01T01:23:44.392510906Z","uid":"8dba155e-98ae-4cf8-8f5c-7b3568e9defd","reconciling":false,"etag":"AVJ8nlO1n3KFhZz2sqW1pSWvPmv8MQzpvzqEWV9wjuQ"}]}
+[debug] [2026-06-01T01:33:45.546Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:45.547Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:45.547Z] >>> [apiv2][query] GET https://firebasedataconnect.googleapis.com/v1/projects/autorizacion-para-tsf2/locations/us-east4/services/librotsf2/schemas pageSize=100&pageToken=&fields=schemas.name%2Cschemas.datasources%2Cschemas.source
+[debug] [2026-06-01T01:33:46.485Z] <<< [apiv2][status] GET https://firebasedataconnect.googleapis.com/v1/projects/autorizacion-para-tsf2/locations/us-east4/services/librotsf2/schemas 200
+[debug] [2026-06-01T01:33:46.485Z] <<< [apiv2][body] GET https://firebasedataconnect.googleapis.com/v1/projects/autorizacion-para-tsf2/locations/us-east4/services/librotsf2/schemas {}
+[debug] [2026-06-01T01:33:50.937Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:50.937Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:50.937Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/autorizacion-para-tsf2/billingInfo [none]
+[debug] [2026-06-01T01:33:54.358Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/autorizacion-para-tsf2/billingInfo 200
+[debug] [2026-06-01T01:33:54.358Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/autorizacion-para-tsf2/billingInfo {"name":"projects/autorizacion-para-tsf2/billingInfo","projectId":"autorizacion-para-tsf2","billingAccountName":"","billingEnabled":false}
+[debug] [2026-06-01T01:33:54.359Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:54.359Z] Checked if tokens are valid: true, expires at: 1780280372791
+[debug] [2026-06-01T01:33:54.359Z] >>> [apiv2][query] GET https://monitoring.googleapis.com/v3/projects/autorizacion-para-tsf2/timeSeries/ filter=metric.type%3D%22serviceruntime.googleapis.com%2Fquota%2Fallocation%2Fusage%22+AND+metric.label.quota_metric+%3D+%22sqladmin.googleapis.com%2Ffdc_lifetime_free_trial_per_project%22&interval.endTime=2026-06-01T01%3A33%3A54.358Z&interval.startTime=2026-05-25T01%3A33%3A54.358Z
